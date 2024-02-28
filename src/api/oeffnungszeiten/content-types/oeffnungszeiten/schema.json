@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "oeffnungszeitens",
+  "info": {
+    "singularName": "oeffnungszeiten",
+    "pluralName": "oeffnungszeitens",
+    "displayName": "Öffnungszeiten"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Oeffnungszeiten": {
+      "type": "richtext"
+    }
+  }
+}

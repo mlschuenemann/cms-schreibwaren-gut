@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sortiments",
+  "info": {
+    "singularName": "sortiment",
+    "pluralName": "sortiments",
+    "displayName": "Sortiment"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Produkt": {
+      "type": "string"
+    },
+    "Produktfoto": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
